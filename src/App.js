@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import About from "./components/about/About";
+import Gallery from "./components/gallery/Gallery";
 import Main from "./components/main/Main";
 import Service from "./components/services/Service";
 
@@ -10,9 +12,17 @@ const App = () => {
         <Main />
       </div>
       <div>
-        <Service/> 
+        <Service />
       </div>
-      <div> </div>
+      <div>
+        <About />
+      </div>
+      <div>
+        <Gallery />
+      </div>
+      <div>
+         asd
+      </div>
     </div>
   );
 };
