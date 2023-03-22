@@ -11,18 +11,10 @@ const App = () => {
       <div className="bg">
         <Main />
       </div>
-      <div>
-        <Service />
-      </div>
-      <div>
-        <About />
-      </div>
-      <div>
-        <Gallery />
-      </div>
-      <div>
-         asd
-      </div>
+      <Service />
+      <About />
+      <Gallery />
+      <div>asd</div>
     </div>
   );
 };
