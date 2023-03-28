@@ -5,6 +5,8 @@
     --orange:#f48915;
     --gray:#9c9c9c;
     --caloryCard:#656565;
+    --containerColor: rgb(249, 239, 220);
+    /* --containerColor: rgb(251, 246, 237); */
     --planCard:linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%); 
 }
 .App{

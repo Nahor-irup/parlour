@@ -39,6 +39,27 @@ const Service = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           </span>
         </div>
+        <div className="category">
+          <img src={SkinCare} alt="" />
+          <span>1st item</span>
+          <span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </span>
+        </div>
+        <div className="category">
+          <img src={SkinCare} alt="" />
+          <span>1st item</span>
+          <span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </span>
+        </div>
+        <div className="category">
+          <img src={SkinCare} alt="" />
+          <span>1st item</span>
+          <span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </span>
+        </div>
       </div>
     </div>
   );

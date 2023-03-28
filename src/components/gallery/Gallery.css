@@ -1,9 +1,9 @@
 .gallery {
     display: flex;
-    gap: 2rem;
-    flex-direction: column;
-    padding: 2rem;
     flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0rem 1.5rem;
+    gap: 2rem;
   }
   .gallery-header {
     display: flex;
@@ -21,12 +21,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1.5rem;
 }
 
 
 /* image div*/
 .imgDiv {
-  margin: 8px;
+  /* margin: 8px; */
   height: 250px;
   text-align: center;
   position: relative;
@@ -87,9 +88,6 @@
 @media screen and (max-width: 480px) {
   .imgDiv {
     width: 100%;
-  }
-  .searchBar{
-    width: 90%;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {

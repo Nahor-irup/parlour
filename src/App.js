@@ -3,6 +3,7 @@ import "./App.css";
 import About from "./components/about/About";
 import Gallery from "./components/gallery/Gallery";
 import Main from "./components/main/Main";
+import Pricing from "./components/pricing/Pricing";
 import Service from "./components/services/Service";
 
 const App = () => {
@@ -14,7 +15,8 @@ const App = () => {
       <Service />
       <About />
       <Gallery />
-      <div>asd</div>
+      <Pricing />
+      as
     </div>
   );
 };
