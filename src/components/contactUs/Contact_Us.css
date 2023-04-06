@@ -1,0 +1,145 @@
+
+.contactUs{
+  position: relative;
+  display: flex;
+  padding: 0px 250px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contactUs .contactUs-header{
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  text-transform: uppercase;
+  font-style: italic;
+  color: var(--orange);
+}
+
+.containerContact{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerContact .contactInfo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerContact .contactInfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.icon{
+  min-width: 60px;
+  height: 60px;
+  background: var(--containerColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 16px;
+  gap: 0.1rem;
+}
+
+.text span{
+  font-weight: 500;
+  color: var(--orange);
+}
+
+.contactForm{
+  width: 40%;
+  padding: 20px 40px;
+  background: var(--containerColor);
+  border-radius: 40px;
+}
+
+.sendMessage{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.inputBox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.inputBox input,
+.inputBox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 14px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.inputBox input:focus ~ span,
+.inputBox input:valid ~ span,
+.inputBox textarea:focus ~ span,
+.inputBox textarea:valid ~ span{
+  color: var(--orange);
+  font-size: 12px;
+  transform: translateY(-22px);
+}
+
+.btnSubmit{
+  width: 100px;
+  background: var(--orange);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+@media (max-width:991px) {
+  .contactUs{
+    padding: 50px;
+  }
+  .contactUs .contactUs-header{
+    font-size: 2.8rem;
+  }
+  .containerContact{
+    flex-direction: column;
+    align-items: start;
+  }
+  .contactInfo{
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .contactForm{
+    width: 100%;
+    padding: 1rem 1.5rem;
+    align-self: center;
+  }
+}

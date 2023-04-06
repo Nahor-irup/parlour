@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import About from "./components/about/About";
+import ContactUs from "./components/contactUs/ContactUs";
 import Gallery from "./components/gallery/Gallery";
 import Main from "./components/main/Main";
 import Pricing from "./components/pricing/Pricing";
@@ -16,6 +17,7 @@ const App = () => {
       <About />
       <Gallery />
       <Pricing />
+      <ContactUs/>
       as
     </div>
   );
