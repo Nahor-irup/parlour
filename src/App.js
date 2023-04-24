@@ -6,8 +6,11 @@ import Gallery from "./components/gallery/Gallery";
 import Main from "./components/main/Main";
 import Pricing from "./components/pricing/Pricing";
 import Service from "./components/services/Service";
+import Footer from "./components/footer/Footer";
+
 
 const App = () => {
+
   return (
     <div className="App">
       <div className="bg">
@@ -18,7 +21,7 @@ const App = () => {
       <Gallery />
       <Pricing />
       <ContactUs/>
-      as
+      <Footer />
     </div>
   );
 };

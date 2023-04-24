@@ -1,11 +1,10 @@
 import React from "react";
 import "./About.css";
-import Amy from "../../assets/images/amy.jpg";
-import Aboutt from "../../assets/images/about.jpg";
+import Amy from "../../assets/images/amy1.jpg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-content">
         <div className="left-a">
           <img className="left-a-img" src={Amy} alt="" />

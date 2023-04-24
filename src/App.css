@@ -6,6 +6,7 @@
     --gray:#9c9c9c;
     --caloryCard:#656565;
     --containerColor: rgb(249, 239, 220);
+    --footerColor: rgb(65, 64, 63);
     /* --containerColor: rgb(251, 246, 237); */
     --planCard:linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%); 
 }
@@ -17,9 +18,10 @@
     flex-direction: column;
     gap: 6rem;
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 .bg{
-    background-image: url("./assets/images/main_bg.jpg");
+    background-image: url("./assets/images/main_bg2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     width: 100vm;

@@ -83,7 +83,18 @@
   -o-tra-webkit-transform: scale(1.15);
   transform: scale(1.15);
 }
-
+.viewMore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewMore>a{
+  text-decoration: none;
+  border: 2px solid var(--orange);
+  color: var(--orange);
+  padding: 10px;
+  border-radius: 25px;
+}
 /* media query */
 @media screen and (max-width: 480px) {
   .imgDiv {

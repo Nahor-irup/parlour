@@ -1,0 +1,45 @@
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color:var(--footerColor);    
+    height: 20rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer>ul{
+    position: relative;
+    display: flex;
+    gap: 25px;
+}
+.footer>ul>li{
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: 0.5s;
+}
+
+.fIcon{
+    color: white;
+}
+.logo-img{
+    display: flex;
+    justify-content: center;
+}
+.logo-img>img{
+    width: 15rem;
+}
+

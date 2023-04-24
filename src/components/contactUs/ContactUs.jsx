@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./Contact_Us.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee,faLocationDot,faPhone,faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot,faPhone,faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import emailjs from '@emailjs/browser';
 
 const ContactUs = () => {
@@ -20,7 +20,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="contactUs">
+    <section className="contactUs" id="contact">
       <div className="contactUs-header">
         <span>Contact Us</span>
       </div>
